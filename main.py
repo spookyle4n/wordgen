@@ -30,4 +30,4 @@ if a == 'y':
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
 
         print(randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
-        time.sleep(0.0000001)
+        time.sleep(0.000001)
