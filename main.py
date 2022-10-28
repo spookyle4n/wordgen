@@ -17,9 +17,10 @@ print('''
                tiktok jahsehrare
                insta: spookyle4n
 ''')
+b = input("[?] How many passwords would you like to generate?: ")
 a = input("[?] Generate wordlist? [y/n]: ")
 if a == 'y':
-    for i in range(10000356):
+    for i in range(b):
         randomnumber = chr(random.randint(ord('0'), ord('9')))
         randomnumber2 = chr(random.randint(ord('0'), ord('9')))
         randomnumber3 = chr(random.randint(ord('0'), ord('9')))
