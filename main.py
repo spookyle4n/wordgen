@@ -17,7 +17,7 @@ print('''
                tiktok jahsehrare
                insta: spookyle4n
 ''')
-b = input("[?] How many passwords would you like to generate?: ")
+b = int(input("[?] How many passwords would you like to generate?: "))
 a = input("[?] Generate wordlist? [y/n]: ")
 if a == 'y':
     for i in range(b):
