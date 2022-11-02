@@ -34,4 +34,5 @@ if a == 'y':
 
         print("\033[31m[!]\033[37m attemping to login [!] " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.000001)
-        end(random.randint((ord('0'), ord('10000')))
+        if b in (10000, 100000):
+           break
