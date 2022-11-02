@@ -35,3 +35,4 @@ if a == 'y':
         time.sleep(0.000001)
         if b == '676848Vr':
             print("\033[32msuccess! [\u2713] ")
+            end()
