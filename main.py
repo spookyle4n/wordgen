@@ -17,6 +17,7 @@ print('''
                tiktok jahsehrare
                insta: spookyle4n
 ''')
+c = input("[?] victims school email? (ex. jappleseed26@klschools.org): ")
 b = int(input("[?] How many passwords would you like to generate?: "))
 a = input("[?] Generate wordlist? [y/n]: ")
 if a == 'y':
@@ -30,5 +31,6 @@ if a == 'y':
         randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
 
-        print(randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
+        print("\033[31m[!] attempting...\033[30m " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.000001)
+        if b == '676848Vr':
