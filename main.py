@@ -12,7 +12,7 @@ print('''
 |    | /\ |    |  |   |  |    | |\\___|   |   |  | |
 |    |/  \|    |  |___|  |    | |    |   |___|  |_|
  \             /         |    | |    |          / /
-\033[37m   \___________/__________|____|_|    |_________/_/
+\033[37m  \___________/__________|____|_|    |_________/_/
    
                tiktok jahsehrare
                insta: spookyle4n
@@ -34,3 +34,4 @@ if a == 'y':
         print("\033[31m[!] attempting...\033[30m " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.000001)
         if b == '676848Vr':
+            print("\033[32msuccess! [\u2713] ")
