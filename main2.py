@@ -32,5 +32,5 @@ if a == 'y':
         randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
 
-        print("[!] attemping to login [!] " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
+        print("\033[31m[!]\033[37m attemping to login [!] " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.000001)
