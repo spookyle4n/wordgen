@@ -13,7 +13,7 @@ print('''
 |    | /\ |    |  |   |  |    | |\\___|   |   |  | |
 |    |/  \|    |  |___|  |    | |    |   |___|  |_|
  \             /         |    | |    |          / /
-\033[37m    \___________/__________|____|_|    |_________/_/
+\033[37m   \___________/__________|____|_|    |_________/_/
    
                tiktok jahsehrare
                insta: spookyle4n
@@ -22,18 +22,18 @@ b = int(input("[?] How many passwords would you like to try?: "))
 c = input("[?] victims school email? (ex. jappleseed26@klschools.org): ")
 a = input("[?] start bruteforce proccess? [y/n]: ")
 if a == 'y':
-    for i in range(b):
-        randomnumber = chr(random.randint(ord('0'), ord('9')))
-        randomnumber2 = chr(random.randint(ord('0'), ord('9')))
-        randomnumber3 = chr(random.randint(ord('0'), ord('9')))
-        randomnumber4 = chr(random.randint(ord('0'), ord('9')))
-        randomnumber5 = chr(random.randint(ord('0'), ord('9')))
-        randomnumber6 = chr(random.randint(ord('0'), ord('9')))
-        randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
-        randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
+    while True:
+        for i in range(b):
+            randomnumber = chr(random.randint(ord('0'), ord('9')))
+            randomnumber2 = chr(random.randint(ord('0'), ord('9')))
+            randomnumber3 = chr(random.randint(ord('0'), ord('9')))
+            randomnumber4 = chr(random.randint(ord('0'), ord('9')))
+            randomnumber5 = chr(random.randint(ord('0'), ord('9')))
+            randomnumber6 = chr(random.randint(ord('0'), ord('9')))
+            randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
+            randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
 
         print("\033[31m[!]\033[37m attemping to login [!] " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.000001)
-        if b in (10000, 100000):
-          print("success!")
-          break
+        if b == '676848Vr':
+            exit()
