@@ -31,8 +31,7 @@ if a == 'y':
         randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
         if randomnumber == '676848Vr':
-            print("\033[32m[!] attempting... 676848Vr\nsuccess! [\u2713] ")
-            time.sleep(9999999)
+            print("\033[32m| attempting... 676848Vr |\n\tsuccess! [\u2713] ")
             
         print("\033[31m| attempting..." + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter + " |", flush=True)
         time.sleep(0.00001)
